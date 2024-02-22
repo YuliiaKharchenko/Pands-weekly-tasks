@@ -8,10 +8,10 @@
 from datetime import datetime
 current_date = datetime.now().date() # use this command to output current date
 
-# print(current_date.weekday())
-# use command weekday to get the number of current day as an integer and check the condition
+# print(current_date.isoweekday())
+# use command isoweekday to get the number of current day as an integer and check the condition
  
-if current_date.weekday() < 5:
+if current_date.isoweekday() <=5: 
     print("Yes, unfortunately today is a weekday.")
 else:
     print("It is the weekend, yay!") 
