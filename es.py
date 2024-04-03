@@ -12,7 +12,7 @@ import sys
 def readFile():
    # use block try...except to handle the errors if file doesn't exist and if it's missing as a command line argument 
    try:
-      Filename = sys.argv[1] #(The list of command line arguments passed to a Python script.Index 1 points to the first value after the programme name)
+      Filename = sys.argv[1] # the list of command line arguments passed to a Python script.Index 1 points to the first value after the programme name
       # print(Filename)
       with open(Filename,'rt') as f:  # open a file in text fofmat 
            data = f.read()             # read a file
